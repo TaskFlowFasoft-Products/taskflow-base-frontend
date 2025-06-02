@@ -1,6 +1,6 @@
 # TaskFlow - Frontend
 
-Este repositório contém o código-fonte do frontend do **TaskFlow**, uma aplicação web de gerenciamento de tarefas baseada no modelo Kanban.
+Este repositório contém o código-fonte do frontend da aplicação base do sistema **TaskFlow**, uma aplicação web de gerenciamento de tarefas baseada no modelo Kanban.
 
 ## Tecnologias
 
@@ -10,6 +10,13 @@ Este repositório contém o código-fonte do frontend do **TaskFlow**, uma aplic
 - **React Router** – Gerenciamento de rotas
 - **React Beautiful DnD** – Funcionalidade de arrastar e soltar (drag-and-drop)
 
+## Funcionalidades
+- Login e cadastro de usuários.
+- Criação de quadros, colunas e tarefas.
+- Edição de quadros, colunas e tarefas.
+- Exclusão de quadros, colunas e tarefas.
+- Movimentação de tarefas com drag-and-drop.
+
 ## Instalação
 
 ### Requisitos:
@@ -18,22 +25,8 @@ Este repositório contém o código-fonte do frontend do **TaskFlow**, uma aplic
 
 ### Passos:
 ```bash
-git clone https://github.com/Enildo-Martins/taskflow-frontend.git
-cd taskflow-frontend
+git clone https://github.com/TaskFlowFasoft-Products/taskflow-base-frontend.git
+cd taskflow-base-frontend
 npm install
 npm run dev
 ```
-
-Funcionalidades
-Login e cadastro de usuários
-
-Criação de quadros e colunas
-
-Criação, edição e movimentação de tarefas com drag-and-drop
-
-Desenvolvedores
-Enildo Martins
-Maria Eduarda Goetz
-João Lázaro
-
-- Projeto desenvolvido como parte da disciplina de Processo de Software na Universidade de Rio Verde.
